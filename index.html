@@ -10,6 +10,8 @@
   <body>
     <div class="container">
       <h1>Survey</h1>
+      <h3>Answer my questions and no one gets hurt.</h3>
+      <label>What is your favorite band?</label>
       <form id="add">
         <div class="radio">
         <label>
@@ -35,7 +37,22 @@
           Pink Floyd
         </label>
       </div>
-
+      <label>What is your favorite type of drink?</label>
+      <select class="form-control" id="beverage">
+        <option value="1">Whiskey drink</option>
+        <option value="2">Vodka drink</option>
+        <option value="3">Lager drink</option>
+        <option value="4">Cider drink</option>
+      </select>
+      <div class="form-group">
+        <label for="born">When is your birthday?</label>
+        <input id="born" class="form-control" type="date">
+      </div>
+      <div class="form-group">
+        <label for="color">What is your favorite color?</label>
+        <input id="color" class="form-control" type="color">
+      </div>
+      <button type="submit" class="btn">Submit</button>
     </div>
   </body>
 </html>
