@@ -1,0 +1,1 @@
+var band = $("input:radio[name=band]:checked").val();
